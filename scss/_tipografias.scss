@@ -1,0 +1,24 @@
+
+//@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Varela&display=swap');
+
+@font-face {
+    font-family: 'Varela';
+    src: url('../fonts/Varela-Regularfff.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Fuzzy Bubbles';
+    src: url('../fonts/FuzzyBubbles-Regular.ttf') format("truetype");
+}
+
+html {
+    font-family:'Varela','Arial Narrow Bold', sans-serif;
+    color: $color-white;
+}
+
+.font_nubes{
+    
+    font-weight: bold;
+    font-family: 'Fuzzy Bubbles';
+    color: $color-white;
+}

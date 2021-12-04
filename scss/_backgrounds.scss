@@ -1,0 +1,36 @@
+html {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    201deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(38, 38, 38, 1) 8%,
+    rgba(62, 62, 62, 1) 19%,
+    rgba(107, 107, 107, 1) 42%,
+    rgba(148, 148, 148, 1) 68%,
+    rgba(184, 184, 184, 1) 85%,
+    rgba(255, 255, 255, 1) 98%
+  );
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  height: auto;
+  width: 100%;
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: contain;
+    background-image: url("../imagenes/geometria_background_negro.svg");
+    background-position: top center;
+    opacity: 0.04;
+    z-index: -1;
+  }
+}
