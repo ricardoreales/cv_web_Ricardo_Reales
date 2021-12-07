@@ -1,64 +1,64 @@
-main {
+.intro {
   display: flex;
-  text-align: center;
   flex-direction: column;
-  
+  align-items: center;
 
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    h1 {
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-
-    hr {
-      border: 1px solid $color-white;
-      height: 0;
-      width: 300px;
-    }
-
-    h2 {
-      text-transform: uppercase;
-      font-weight: lighter;
-    }
-
-    p{
-        margin-top: 20px;
-        padding: 40px;
-        text-align: justify;
-        
-    }
+  h1 {
+    text-transform: uppercase;
+    font-weight: bold;
   }
 
-  .funy {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-   
+  hr {
+    border: 1px solid $color-white;
+    height: 0;
+    width: 300px;
+  }
 
+  h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+
+  p {
+    margin-top: 20px;
+    padding: 40px;
+    text-align: justify;
+  }
+}
+
+.funy1 {
+  @extend .funy;
+  > img {
+    @extend .avatar;
+  }
+  > small {
+    @extend .text;
+    left: 200px;
+    bottom: 140px;
+  }
+  > div {
+    @extend .nube;
+    border: 1px solid red;
+    left: 150px;
+    bottom: 100px;
+  }
+}
+
+.funy2 {
+  @extend .funy;
+  > img {
+    @extend .avatar;
+  }
+  > small {
+    @extend .text;
+    left: 195px;
+    bottom: 150px;
     
-    p{
-        
-        z-index: 1;
-        width: 120px;
-        height: auto;
-        position: absolute; 
-         left: 330px;
-         bottom: 295px;
-        
-    }
-
-    .nube{
-        width: 200px;
-        height: auto;
-        position: absolute;
-        left: 280px;
-
-    }
-
-    
+  }
+  > div {
+    @extend .nube;
+    border: 1px solid red;
+    left: 150px;
+    bottom: 100px;
   }
 }

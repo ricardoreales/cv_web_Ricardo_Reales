@@ -49,12 +49,12 @@ nav {
       font-weight: 600;
 
       &.active {
-        color:$color-turqueza;
+        color:$color-verde;
         transition: 0.5s;
       }
 
       &:hover {
-        color:$color-hover;
+        color:$color-turqueza;
         transition: 0.5s;
       }
     }

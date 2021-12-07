@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Varela';
-    src: url('../fonts/Varela-Regularfff.ttf') format("truetype");
+    src: url('../fonts/Varela-Regular.ttf') format("truetype");
 }
 
 @font-face {
@@ -22,3 +22,16 @@ html {
     font-family: 'Fuzzy Bubbles';
     color: $color-white;
 }
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+

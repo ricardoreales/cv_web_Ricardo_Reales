@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Varela';
-  src: url("../fonts/Varela-Regularfff.ttf") format("truetype"); }
+  src: url("../fonts/Varela-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Fuzzy Bubbles';
@@ -22,6 +22,14 @@ html {
   font-weight: bold;
   font-family: 'Fuzzy Bubbles';
   color: white; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 17px; }
 
 /*--BRRA DE NAVEGAION--*/
 nav {
@@ -92,41 +100,79 @@ body {
     opacity: 0.04;
     z-index: -1; }
 
-main {
+.background__h1 {
+  background-color: #4e4e4e; }
+
+.intro {
   display: flex;
-  text-align: center;
-  flex-direction: column; }
-  main .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    main .intro h1 {
-      text-transform: uppercase;
-      font-weight: bold; }
-    main .intro hr {
-      border: 1px solid white;
-      height: 0;
-      width: 300px; }
-    main .intro h2 {
-      text-transform: uppercase;
-      font-weight: lighter; }
-    main .intro p {
-      margin-top: 20px;
-      padding: 40px;
-      text-align: justify; }
-  main .funy {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; }
-    main .funy p {
-      z-index: 1;
-      width: 120px;
-      height: auto;
-      position: absolute;
-      left: 330px;
-      bottom: 295px; }
-    main .funy .nube {
-      width: 200px;
-      height: auto;
-      position: absolute;
-      left: 280px; }
+  flex-direction: column;
+  align-items: center; }
+  .intro h1 {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .intro hr {
+    border: 1px solid white;
+    height: 0;
+    width: 300px; }
+  .intro h2 {
+    text-transform: uppercase;
+    font-weight: lighter; }
+  .intro p {
+    margin-top: 20px;
+    padding: 40px;
+    text-align: justify; }
+
+.funy1 > small {
+  left: 200px;
+  bottom: 140px; }
+
+.funy1 > div {
+  border: 1px solid red;
+  left: 150px;
+  bottom: 100px; }
+
+.funy2 > small {
+  left: 195px;
+  bottom: 150px; }
+
+.funy2 > div {
+  border: 1px solid red;
+  left: 150px;
+  bottom: 100px; }
+
+.progress {
+  position: relative;
+  width: 210px;
+  height: 30px;
+  background: grey;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5px; }
+  .progress .progress__fill {
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 247, 255, 0.979);
+    transition: all 1s; }
+  .progress .progress__text {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translatey(-50%); }
+
+.funy, .funy1, .funy2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative; }
+  .funy .avatar, .funy1 .avatar, .funy2 .avatar, .funy .funy1 > img, .funy1 > img, .funy2 .funy1 > img, .funy .funy2 > img, .funy1 .funy2 > img, .funy2 > img {
+    border: 1px solid #df09fc; }
+  .funy .text, .funy1 .text, .funy2 .text, .funy .funy1 > small, .funy1 > small, .funy2 .funy1 > small, .funy .funy2 > small, .funy1 .funy2 > small, .funy2 > small {
+    z-index: 1;
+    width: 120px;
+    height: auto;
+    position: absolute;
+    text-align: center; }
+  .funy .nube, .funy1 .nube, .funy2 .nube, .funy .funy1 > div, .funy1 > div, .funy2 .funy1 > div, .funy .funy2 > div, .funy1 .funy2 > div, .funy2 > div {
+    width: 200px;
+    height: auto;
+    position: absolute; }

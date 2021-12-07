@@ -1,0 +1,33 @@
+
+.funy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+  
+    .avatar {
+      border: 1px solid rgb(223, 9, 252);
+    }
+  
+    .text {
+      z-index: 1;
+      width: 120px;
+      height: auto;
+      position: absolute;
+      text-align: center
+
+     
+      
+     
+      
+    }
+  
+    .nube {
+      width: 200px;
+      height: auto;
+      
+      position: absolute;
+      
+    }
+  }
+  
