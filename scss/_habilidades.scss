@@ -1,0 +1,13 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+   
+    div{
+        border:1px solid $color-white;
+        padding: 2px;
+        margin: 10px;
+        text-align: center;
+    }
+
+
+}

@@ -34,7 +34,7 @@
   > small {
     @extend .text;
     left: 200px;
-    bottom: 140px;
+    bottom: 160px;
   }
   > div {
     @extend .nube;
@@ -58,6 +58,44 @@
   > div {
     @extend .nube;
     border: 1px solid red;
+    left: 150px;
+    bottom: 100px;
+  }
+}
+
+.funy3 {
+  @extend .funy;
+  > img {
+    @extend .avatar;
+  }
+  > small {
+    @extend .text;
+    left: 195px;
+    bottom: 150px;
+    
+  }
+  > div {
+    @extend .nube;
+    border: 1px solid rgb(0, 255, 55);
+    left: 150px;
+    bottom: 100px;
+  }
+}
+
+.funy4 {
+  @extend .funy;
+  > img {
+    @extend .avatar;
+  }
+  > small {
+    @extend .text;
+    left: 195px;
+    bottom: 150px;
+    
+  }
+  > div {
+    @extend .nube;
+    border: 1px solid rgb(133, 32, 216);
     left: 150px;
     bottom: 100px;
   }

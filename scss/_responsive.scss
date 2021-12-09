@@ -1,0 +1,44 @@
+// timeLine - responsive
+@media (max-width: 790px) {
+	.wrapper {
+		.center-line {
+			left: 40px;
+		}
+		.row {
+			margin: 30px 0 3px 60px;
+			section {
+				width: 100%;
+			}
+		}
+	}
+	.row-1 {
+		section {
+			&:before {
+				left: -7px;
+			}
+			.icon {
+				left: -60px;
+			}
+		}
+	}
+}
+@media (max-width: 440px) {
+	.wrapper {
+		.center-line {
+			display: none;
+		}
+		.row {
+			margin: 10px 0;
+		}
+	}
+	.row {
+		section {
+			&:before {
+				display: none;
+			}
+			.icon {
+				display: none;
+			}
+		}
+	}
+}
