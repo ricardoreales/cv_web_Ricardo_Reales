@@ -38,7 +38,6 @@
   }
   > div {
     @extend .nube;
-    border: 1px solid red;
     left: 150px;
     bottom: 100px;
   }
@@ -53,11 +52,9 @@
     @extend .text;
     left: 195px;
     bottom: 150px;
-    
   }
   > div {
     @extend .nube;
-    border: 1px solid red;
     left: 150px;
     bottom: 100px;
   }
@@ -72,11 +69,9 @@
     @extend .text;
     left: 195px;
     bottom: 150px;
-    
   }
   > div {
     @extend .nube;
-    border: 1px solid rgb(0, 255, 55);
     left: 150px;
     bottom: 100px;
   }
@@ -89,14 +84,12 @@
   }
   > small {
     @extend .text;
-    left: 195px;
-    bottom: 150px;
-    
+    left: 210px;
+    bottom: 165px;
   }
   > div {
     @extend .nube;
-    border: 1px solid rgb(133, 32, 216);
-    left: 150px;
+    left: 160px;
     bottom: 100px;
   }
 }

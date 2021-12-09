@@ -3,10 +3,13 @@
     flex-direction: column;
    
     div{
-        border:1px solid $color-white;
+        
         padding: 2px;
         margin: 10px;
         text-align: center;
+        background-color:$color-gris2 ;
+        border-radius: 5px;
+        border:2px solid $color-white;
     }
 
 

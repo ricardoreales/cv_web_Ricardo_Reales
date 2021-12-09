@@ -24,8 +24,10 @@ nav {
     cursor: pointer;
     z-index: 3;
     color: rgb(255, 255, 255);
-    // position: fixed;
-    // background: $color-gris2;
+    position: fixed;
+    background: $color-turqueza;
+    border-radius: 50% ;
+    padding: 0 10px 0 10px;
   }
 
   .nav__menu {
