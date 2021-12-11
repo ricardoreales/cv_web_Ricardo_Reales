@@ -213,6 +213,12 @@ body {
     border-radius: 5px;
     border: 2px solid white; }
 
+.botonWhatsApp img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
 .funy, .funy1, .funy2, .funy3, .funy4, .funy5 {
   display: flex;
   flex-direction: row;
