@@ -22,7 +22,7 @@ html {
   font-weight: bold;
   font-family: 'Fuzzy Bubbles';
   color: white;
-  font-size: 20px; }
+  font-size: 18px; }
 
 .h1_title {
   text-transform: uppercase;
@@ -134,36 +134,36 @@ body {
     text-align: justify; }
 
 .funy1 > small {
-  left: 215px;
+  left: 230px;
   bottom: 180px; }
 
 .funy1 > div {
-  left: 170px;
+  left: 180px;
   bottom: 150px; }
 
 .funy2 > small {
-  left: 195px;
-  bottom: 150px; }
+  left: 205px;
+  bottom: 190px; }
 
 .funy2 > div {
-  left: 150px;
-  bottom: 100px; }
+  left: 160px;
+  bottom: 160px; }
 
 .funy3 > small {
-  left: 195px;
-  bottom: 150px; }
+  left: 230px;
+  bottom: 185px; }
 
 .funy3 > div {
-  left: 150px;
-  bottom: 100px; }
+  left: 180px;
+  bottom: 150px; }
 
 .funy4 > small {
-  left: 210px;
-  bottom: 165px; }
+  left: 215px;
+  bottom: 210px; }
 
 .funy4 > div {
-  left: 160px;
-  bottom: 100px; }
+  left: 170px;
+  bottom: 180px; }
 
 .conocimientos {
   display: flex;
@@ -227,8 +227,7 @@ body {
   max-width: 1080px;
   margin: 50px auto;
   padding: 0 20px;
-  position: relative;
-  transition: all 3s; }
+  position: relative; }
   .wrapper .center-line {
     position: absolute;
     height: 100%;
