@@ -21,7 +21,8 @@ html {
 .font_nubes {
   font-weight: bold;
   font-family: 'Fuzzy Bubbles';
-  color: white; }
+  color: white;
+  font-size: 20px; }
 
 .h1_title {
   text-transform: uppercase;
@@ -133,12 +134,12 @@ body {
     text-align: justify; }
 
 .funy1 > small {
-  left: 200px;
-  bottom: 160px; }
+  left: 215px;
+  bottom: 180px; }
 
 .funy1 > div {
-  left: 150px;
-  bottom: 100px; }
+  left: 170px;
+  bottom: 150px; }
 
 .funy2 > small {
   left: 195px;
