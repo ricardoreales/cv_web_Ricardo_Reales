@@ -1,0 +1,34 @@
+.portafolio {
+  display: flex;
+  flex-direction: column;
+
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+
+    .gymsmart {
+      display: flex;
+      text-align: center;
+      border-radius: 5px;
+      border: 2px solid $color-white;
+      color: $color-white;
+      width: 250px;
+      height: 250px;
+      margin-top: 20px;
+      align-items: Center;
+      justify-content: center;
+      
+      
+
+      img {
+        width: 180px;
+      }
+    }
+
+    .decobici {
+      @extend .gymsmart;
+    }
+  }
+}

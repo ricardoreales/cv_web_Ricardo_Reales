@@ -93,3 +93,21 @@
     bottom: 180px;
   }
 }
+
+.funy5 {
+  @extend .funy;
+  > img {
+    @extend .avatar;
+  }
+  > small {
+    @extend .text;
+    left: 210px;
+    bottom: 125px;
+  }
+  > div {
+    @extend .nube;
+    left: 170px;
+    bottom: 110px;
+  }
+}
+

@@ -165,6 +165,14 @@ body {
   left: 170px;
   bottom: 180px; }
 
+.funy5 > small {
+  left: 210px;
+  bottom: 125px; }
+
+.funy5 > div {
+  left: 170px;
+  bottom: 110px; }
+
 .conocimientos {
   display: flex;
   flex-direction: column;
@@ -205,20 +213,20 @@ body {
     border-radius: 5px;
     border: 2px solid white; }
 
-.funy, .funy1, .funy2, .funy3, .funy4 {
+.funy, .funy1, .funy2, .funy3, .funy4, .funy5 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   position: relative; }
-  .funy .avatar, .funy1 .avatar, .funy2 .avatar, .funy3 .avatar, .funy4 .avatar, .funy .funy1 > img, .funy1 > img, .funy2 .funy1 > img, .funy3 .funy1 > img, .funy4 .funy1 > img, .funy .funy2 > img, .funy1 .funy2 > img, .funy2 > img, .funy3 .funy2 > img, .funy4 .funy2 > img, .funy .funy3 > img, .funy1 .funy3 > img, .funy2 .funy3 > img, .funy3 > img, .funy4 .funy3 > img, .funy .funy4 > img, .funy1 .funy4 > img, .funy2 .funy4 > img, .funy3 .funy4 > img, .funy4 > img {
+  .funy .avatar, .funy1 .avatar, .funy2 .avatar, .funy3 .avatar, .funy4 .avatar, .funy5 .avatar, .funy .funy1 > img, .funy1 > img, .funy2 .funy1 > img, .funy3 .funy1 > img, .funy4 .funy1 > img, .funy5 .funy1 > img, .funy .funy2 > img, .funy1 .funy2 > img, .funy2 > img, .funy3 .funy2 > img, .funy4 .funy2 > img, .funy5 .funy2 > img, .funy .funy3 > img, .funy1 .funy3 > img, .funy2 .funy3 > img, .funy3 > img, .funy4 .funy3 > img, .funy5 .funy3 > img, .funy .funy4 > img, .funy1 .funy4 > img, .funy2 .funy4 > img, .funy3 .funy4 > img, .funy4 > img, .funy5 .funy4 > img, .funy .funy5 > img, .funy1 .funy5 > img, .funy2 .funy5 > img, .funy3 .funy5 > img, .funy4 .funy5 > img, .funy5 > img {
     border: none; }
-  .funy .text, .funy1 .text, .funy2 .text, .funy3 .text, .funy4 .text, .funy .funy1 > small, .funy1 > small, .funy2 .funy1 > small, .funy3 .funy1 > small, .funy4 .funy1 > small, .funy .funy2 > small, .funy1 .funy2 > small, .funy2 > small, .funy3 .funy2 > small, .funy4 .funy2 > small, .funy .funy3 > small, .funy1 .funy3 > small, .funy2 .funy3 > small, .funy3 > small, .funy4 .funy3 > small, .funy .funy4 > small, .funy1 .funy4 > small, .funy2 .funy4 > small, .funy3 .funy4 > small, .funy4 > small {
+  .funy .text, .funy1 .text, .funy2 .text, .funy3 .text, .funy4 .text, .funy5 .text, .funy .funy1 > small, .funy1 > small, .funy2 .funy1 > small, .funy3 .funy1 > small, .funy4 .funy1 > small, .funy5 .funy1 > small, .funy .funy2 > small, .funy1 .funy2 > small, .funy2 > small, .funy3 .funy2 > small, .funy4 .funy2 > small, .funy5 .funy2 > small, .funy .funy3 > small, .funy1 .funy3 > small, .funy2 .funy3 > small, .funy3 > small, .funy4 .funy3 > small, .funy5 .funy3 > small, .funy .funy4 > small, .funy1 .funy4 > small, .funy2 .funy4 > small, .funy3 .funy4 > small, .funy4 > small, .funy5 .funy4 > small, .funy .funy5 > small, .funy1 .funy5 > small, .funy2 .funy5 > small, .funy3 .funy5 > small, .funy4 .funy5 > small, .funy5 > small {
     z-index: 1;
     width: 120px;
     height: auto;
     position: absolute;
     text-align: center; }
-  .funy .nube, .funy1 .nube, .funy2 .nube, .funy3 .nube, .funy4 .nube, .funy .funy1 > div, .funy1 > div, .funy2 .funy1 > div, .funy3 .funy1 > div, .funy4 .funy1 > div, .funy .funy2 > div, .funy1 .funy2 > div, .funy2 > div, .funy3 .funy2 > div, .funy4 .funy2 > div, .funy .funy3 > div, .funy1 .funy3 > div, .funy2 .funy3 > div, .funy3 > div, .funy4 .funy3 > div, .funy .funy4 > div, .funy1 .funy4 > div, .funy2 .funy4 > div, .funy3 .funy4 > div, .funy4 > div {
+  .funy .nube, .funy1 .nube, .funy2 .nube, .funy3 .nube, .funy4 .nube, .funy5 .nube, .funy .funy1 > div, .funy1 > div, .funy2 .funy1 > div, .funy3 .funy1 > div, .funy4 .funy1 > div, .funy5 .funy1 > div, .funy .funy2 > div, .funy1 .funy2 > div, .funy2 > div, .funy3 .funy2 > div, .funy4 .funy2 > div, .funy5 .funy2 > div, .funy .funy3 > div, .funy1 .funy3 > div, .funy2 .funy3 > div, .funy3 > div, .funy4 .funy3 > div, .funy5 .funy3 > div, .funy .funy4 > div, .funy1 .funy4 > div, .funy2 .funy4 > div, .funy3 .funy4 > div, .funy4 > div, .funy5 .funy4 > div, .funy .funy5 > div, .funy1 .funy5 > div, .funy2 .funy5 > div, .funy3 .funy5 > div, .funy4 .funy5 > div, .funy5 > div {
     width: 200px;
     height: auto;
     position: absolute; }
@@ -293,6 +301,28 @@ body {
 
 .row section p {
   margin: 10px 0 17px 0; }
+
+.portafolio {
+  display: flex;
+  flex-direction: column; }
+  .portafolio .proyectos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center; }
+    .portafolio .proyectos .gymsmart, .portafolio .proyectos .decobici {
+      display: flex;
+      text-align: center;
+      border-radius: 5px;
+      border: 2px solid white;
+      color: white;
+      width: 250px;
+      height: 250px;
+      margin-top: 20px;
+      align-items: Center;
+      justify-content: center; }
+      .portafolio .proyectos .gymsmart img, .portafolio .proyectos .decobici img {
+        width: 180px; }
 
 @media (max-width: 790px) {
   .wrapper .center-line {
