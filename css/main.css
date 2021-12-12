@@ -31,7 +31,7 @@ html {
 
 .h2_title {
   text-transform: uppercase;
-  font-size: 20px; }
+  font-size: 30px; }
 
 .h1_categorias {
   text-transform: uppercase;
@@ -59,7 +59,7 @@ nav {
     z-index: 3;
     color: white;
     position: fixed;
-    background: rgba(29, 214, 238, 0.979);
+    background: #9bd300;
     border-radius: 50%;
     padding: 0 10px 0 10px; }
   nav .nav__menu {
@@ -81,15 +81,15 @@ nav {
       text-transform: uppercase;
       font-weight: 600; }
       nav .nav__menu a.active {
-        color: #c5fc01;
+        color: #367e83;
         transition: 0.5s; }
       nav .nav__menu a:hover {
-        color: rgba(29, 214, 238, 0.979);
+        color: #9bd300;
         transition: 0.5s; }
 
-html {
-  background: #4e4e4e;
-  background: linear-gradient(201deg, #4e4e4e 0%, #747474 17%, #bbbbbb 39%, #bbbbbb 60%, #535353 83%, #525252 100%); }
+.background__section {
+  background: #bebebe;
+  background: linear-gradient(0deg, #bebebe 0%, #202020 100%); }
 
 .nav__menu {
   background: dimgray; }
@@ -97,7 +97,9 @@ html {
 body {
   position: relative;
   height: auto;
-  width: 100%; }
+  width: 100%;
+  background: #bebebe;
+  background: linear-gradient(0deg, #bebebe 0%, #202020 100%); }
   body::before {
     content: "";
     position: fixed;
@@ -108,13 +110,13 @@ body {
     background-size: contain;
     background-image: url("../imagenes/geometria_background_negro.svg");
     background-position: top center;
-    opacity: 0.04;
-    z-index: -1; }
+    opacity: 0.1; }
 
 .background__h1 {
-  background-color: dimgray;
+  background-color: #367e83;
   box-shadow: inset 0 5px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
 
 .intro {
   display: flex;
@@ -134,6 +136,9 @@ body {
     margin-top: 20px;
     padding: 40px;
     text-align: justify; }
+
+.color_end {
+  color: #9bd300; }
 
 .funy1 > small {
   left: 230px;
@@ -168,8 +173,8 @@ body {
   bottom: 180px; }
 
 .funy5 > small {
-  left: 210px;
-  bottom: 125px; }
+  left: 220px;
+  bottom: 140px; }
 
 .funy5 > div {
   left: 170px;
@@ -192,11 +197,12 @@ body {
       background: grey;
       border-radius: 5px;
       overflow: hidden;
-      margin: 5px; }
+      margin: 5px;
+      border: 2px solid white; }
       .conocimientos .progresBar__container .progress .progress__fill {
         width: 0%;
         height: 100%;
-        background: rgba(29, 214, 238, 0.979);
+        background: #9bd300;
         transition: all 5s; }
       .conocimientos .progresBar__container .progress .progress__text {
         position: absolute;
@@ -213,7 +219,8 @@ body {
     text-align: center;
     background-color: #B3B3B3;
     border-radius: 5px;
-    border: 2px solid white; }
+    border: 2px solid white;
+    z-index: 1; }
 
 #toggle {
   position: fixed;
@@ -221,7 +228,7 @@ body {
   right: 20px;
   width: 40px;
   height: 40px;
-  background: rgba(29, 214, 238, 0.979);
+  background: #9bd300;
   z-index: 5;
   cursor: pointer;
   display: flex;
@@ -257,7 +264,7 @@ body {
   left: -300px;
   width: 300px;
   height: 100vh;
-  background: dimgray;
+  background: #367e83;
   transition: 0.5s;
   z-index: 3; }
   #sidebar ul {
@@ -268,7 +275,7 @@ body {
       list-style: none;
       width: 100%; }
       #sidebar ul li:hover {
-        background: #1de2f0; }
+        background: #9bd300; }
       #sidebar ul li a {
         width: 100%;
         padding: 10px;
@@ -291,7 +298,7 @@ body {
   right: 20px;
   width: 40px;
   height: 40px;
-  background: rgba(29, 214, 238, 0.979);
+  background: #9bd300;
   z-index: 5;
   cursor: pointer;
   display: flex;
@@ -327,7 +334,7 @@ body {
   left: -300px;
   width: 300px;
   height: 100vh;
-  background: dimgray;
+  background: #367e83;
   transition: 0.5s;
   z-index: 3; }
   #sidebar ul {
@@ -338,7 +345,7 @@ body {
       list-style: none;
       width: 100%; }
       #sidebar ul li:hover {
-        background: #1de2f0; }
+        background: #9bd300; }
       #sidebar ul li a {
         width: 100%;
         padding: 10px;
@@ -419,7 +426,7 @@ body {
 
 .row section .icon {
   position: absolute;
-  background: rgba(29, 214, 238, 0.979);
+  background: #9bd300;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -444,21 +451,19 @@ body {
   .portafolio .proyectos {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    align-items: center; }
-    .portafolio .proyectos .gymsmart, .portafolio .proyectos .decobici {
+    margin-top: 2px;
+    align-items: center;
+    z-index: 1; }
+    .portafolio .proyectos .img_portafolio {
       display: flex;
       text-align: center;
-      border-radius: 5px;
-      border: 2px solid white;
       color: white;
-      width: 250px;
-      height: 250px;
-      margin-top: 20px;
+      width: 100%;
+      margin-top: 10px;
       align-items: Center;
       justify-content: center; }
-      .portafolio .proyectos .gymsmart img, .portafolio .proyectos .decobici img {
-        width: 180px; }
+      .portafolio .proyectos .img_portafolio img {
+        width: 100vw; }
 
 @media (max-width: 790px) {
   .wrapper .center-line {
@@ -471,23 +476,3 @@ body {
     left: -7px; }
   .row-1 section .icon {
     left: -60px; } }
-
-@media (max-width: 440px) {
-  /*.wrapper {
-		.center-line {
-			display: inline;
-		}
-		.row {
-			margin: 10px 0;
-		}
-	}
-	.row {
-		section {
-			&:before {
-				display: none;
-			}
-			.icon {
-				display: none;
-			}
-		}
-	}*/ }

@@ -25,28 +25,31 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div id="toggle"></div>
-        <div id="sidebar">
-          <ul>
-            <li><a href="#inicio">inicio</a></li>
-            <li><a href="#conocimientos">conocimientos</a></li>
-            <li><a href="#habilidades">habilidades</a></li>
-            <li><a href="#experiencia">experiencia</a></li>
-            <li><a href="#portafolio">portafolio</a></li>
-            <li><a href="#contactame">contactame </a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="intro">
+    <div class="background__section">
+      <header>
+        <nav>
+          <div id="toggle"></div>
+          <div id="sidebar">
+            <ul>
+              <li><a href="#inicio">inicio</a></li>
+              <li><a href="#conocimientos">conocimientos</a></li>
+              <li><a href="#habilidades">habilidades</a></li>
+              <li><a href="#experiencia">experiencia</a></li>
+              <li><a href="#portafolio">portafolio</a></li>
+              <li><a href="#contactame">contactame </a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <section class="intro" id="inicio">
         <h1 class="h1_title">Ricardo Reales</h1>
 
         <hr />
 
-        <h2 class="h2_title">frontend developer</h2>
+        <h2 class="h2_title color_end">
+          front - <span class="color_end">end</span>
+        </h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
           obcaecati enim quis error eius totam provident labore quibusdam? Nulla
@@ -75,7 +78,9 @@
           </div>
         </div>
       </section>
+    </div>
 
+    <div class="background__section">
       <section id="conocimientos" class="conocimientos">
         <h1 class="background__h1 h1_categorias">conocimientos web</h1>
         <div class="progresBar__container">
@@ -135,7 +140,9 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="background__section">
       <section id="habilidades" class="habilidades">
         <h1 class="background__h1 h1_categorias">habilidades</h1>
         <div>
@@ -178,8 +185,10 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <section id="experiencia" class="experiencia">
+    <div class="background__section">
+      <section id="experiencia" >
         <h1 class="background__h1 h1_categorias">experiencia</h1>
         <div class="wrapper">
           <div class="center-line"></div>
@@ -254,18 +263,20 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="background__section">
       <section id="portafolio" class="portafolio">
         <h1 class="background__h1 h1_categorias">portafolio</h1>
         <div class="proyectos">
-          <div class="gymsmart">
+          <div class="img_portafolio">
             <a href="https://gimnasio-gym-smart.netlify.app/"
-              ><img src="./imagenes/gym_smart_logo-02.png" alt="gymsmart"
+              ><img src="./imagenes/decobici.JPG" alt="gymsmart"
             /></a>
           </div>
-          <div class="gymsmart">
+          <div class="img_portafolio">
             <a href="https://decobici.netlify.app/"
-              ><img src="./imagenes/LOGO NUEVO-02.png" alt="decobici"
+              ><img src="./imagenes/gymsmartfoto.JPG" alt="decobici"
             /></a>
           </div>
         </div>
@@ -273,15 +284,14 @@
       <div>
         <div class="funy5">
           <img src="./imagenes/cara5.png" alt="cara_inicio" />
-          <small class="font_nubes">
-            llego el momento de ver que soy capaz de hacer
-          </small>
+          <small class="font_nubes"> excelente!! tengo mucho potencial </small>
           <div>
             <img src="./imagenes/nube-02.svg" alt="nube_de_pensamiento" />
           </div>
         </div>
       </div>
-    </main>
+    </div>
+
     <div class="botonWhatsApp">
       <a
         href="https://api.whatsapp.com/send?phone=+5491126677230"

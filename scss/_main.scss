@@ -26,6 +26,10 @@
   }
 }
 
+.color_end{
+  color: $color-turqueza;
+}
+
 .funy1 {
   @extend .funy;
   > img {
@@ -101,8 +105,8 @@
   }
   > small {
     @extend .text;
-    left: 210px;
-    bottom: 125px;
+    left: 220px;
+    bottom: 140px;
   }
   > div {
     @extend .nube;
