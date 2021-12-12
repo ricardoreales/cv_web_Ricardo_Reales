@@ -27,19 +27,17 @@
   <body>
     <header>
       <nav>
-        <input type="checkbox" id="check" />
-        <label for="check" class="bar__btn">
-          <span class="material-icons">reorder</span>
-        </label>
-
-        <ul class="nav__menu">
-          <li><a class="active" href="./index.html">inicio</a></li>
-          <li><a href="#conocimientos">conocimientos</a></li>
-          <li><a href="#habilidades">habilidades</a></li>
-          <li><a href="#experiencia">experiencia</a></li>
-          <li><a href="#portafolio">portafolio</a></li>
-          <li><a href="#contactame">contactame </a></li>
-        </ul>
+        <div id="toggle"></div>
+        <div id="sidebar">
+          <ul>
+            <li><a href="#inicio">inicio</a></li>
+            <li><a href="#conocimientos">conocimientos</a></li>
+            <li><a href="#habilidades">habilidades</a></li>
+            <li><a href="#experiencia">experiencia</a></li>
+            <li><a href="#portafolio">portafolio</a></li>
+            <li><a href="#contactame">contactame </a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -261,12 +259,15 @@
         <h1 class="background__h1 h1_categorias">portafolio</h1>
         <div class="proyectos">
           <div class="gymsmart">
-            <a href="https://gimnasio-gym-smart.netlify.app/"><img src="./imagenes/gym_smart_logo-02.png" alt="gymsmart"></a>
+            <a href="https://gimnasio-gym-smart.netlify.app/"
+              ><img src="./imagenes/gym_smart_logo-02.png" alt="gymsmart"
+            /></a>
           </div>
           <div class="gymsmart">
-            <a href="https://decobici.netlify.app/"><img src="./imagenes/LOGO NUEVO-02.png" alt="decobici"></a>
+            <a href="https://decobici.netlify.app/"
+              ><img src="./imagenes/LOGO NUEVO-02.png" alt="decobici"
+            /></a>
           </div>
-          
         </div>
       </section>
       <div>
@@ -290,5 +291,6 @@
     </div>
 
     <script src="progressBar.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>

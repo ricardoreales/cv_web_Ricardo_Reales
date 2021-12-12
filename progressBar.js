@@ -41,6 +41,17 @@ window.onscroll = function() {scrollFunction()}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*
 function saludar(nombre, apellido) {
     const mySectionIntro = document.querySelector(".intro")
