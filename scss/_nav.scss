@@ -47,19 +47,22 @@
 	transition: 0.5s;
     z-index: 3;
 	ul {
-		position: relative;
+		//position: relative;
 		margin-top: 50px;
 		li {
+			display: flex;
+			flex-direction: column;
 			list-style: none;
-			display: inline-block;
 			width: 100%;
-			padding: 10px;
 			&:hover {
 				background: rgb(29, 226, 240);
 			}
 			a {
+				width: 100%;
+				padding: 10px;
 				color: $color-white;
 				text-decoration: none;
+				font-size: 1.3rem;
 			}
 		}
 	}
