@@ -102,8 +102,7 @@ html {
     left: 0px;
     opacity: 1;
     background-image: url("../imagenes/background_b-02.svg");
-    z-index: -2;
-    background-position: 0px 150px; }
+    z-index: -2; }
 
 .background__section {
   width: 100%;
