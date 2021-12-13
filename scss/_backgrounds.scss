@@ -1,5 +1,4 @@
 html {
-  
   width: 100%;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -15,16 +14,14 @@ html {
     left: 0px;
     opacity: 1;
     background-image: url("../imagenes/background_b-02.svg");
-    z-index: -1;
+    z-index: -2;
     background-position: 0px 150px;
   }
 }
 
 .background__section {
   width: 100%;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  
+    background-repeat: no-repeat;
 
   &::before {
     content: "";
@@ -37,10 +34,9 @@ html {
     left: 0px;
     opacity: 0.5;
     background: rgb(190, 190, 190);
-    z-index: -1;
+    z-index: -2;
     background: linear-gradient(0deg, rgb(97, 97, 97) 0%, rgb(0, 0, 0) 100%);
   }
-  
 }
 
 // .background__section {
