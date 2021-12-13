@@ -110,7 +110,6 @@ html {
   background-repeat: no-repeat; }
   .background__section::before {
     content: "";
-    background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
     top: 0px;
