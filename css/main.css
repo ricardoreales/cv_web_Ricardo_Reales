@@ -24,6 +24,10 @@ html {
   padding: 30px 0px 30px 0px;
   text-align: center; }
 
+.font_nubes {
+  font-family: 'Fuzzy Bubbles';
+  font-size: 20px; }
+
 /*--BRRA DE NAVEGAION--*/
 nav {
   height: 80px;
@@ -103,6 +107,10 @@ nav {
 
 .background__p {
   background: #9bd300; }
+
+footer {
+  background: #9bd300;
+  height: 100px; }
 
 .intro {
   display: flex;
@@ -397,7 +405,8 @@ nav {
   max-width: 1080px;
   margin: 50px auto;
   padding: 0 20px;
-  position: relative; }
+  position: relative;
+  z-index: 3; }
   .wrapper .center-line {
     position: absolute;
     height: 100%;
@@ -483,6 +492,26 @@ nav {
       justify-content: center; }
       .portafolio .proyectos .img_portafolio img {
         width: 100vw; }
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; }
+  .redes li {
+    padding: 20px;
+    text-align: center; }
+    .redes li a {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .redes li a img {
+        width: 50px;
+        margin: 5px; }
+      .redes li a span {
+        margin: 5px;
+        font-size: 50px; }
 
 .section_animacion {
   background: gray;
