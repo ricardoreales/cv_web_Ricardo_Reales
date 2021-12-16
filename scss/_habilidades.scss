@@ -1,11 +1,18 @@
 .habilidades{
     display: flex;
     flex-direction: column;
+
+    h1{
+        margin-bottom: 30px;
+    }
+    
+    
    
     div{
         
-        padding: 2px;
-        margin: 10px;
+        padding: 5px;
+        margin: 20px 25px 20px 25px;
+        
         text-align: center;
         background-color:$color-gris2 ;
         border-radius: 5px;

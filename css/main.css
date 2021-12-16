@@ -237,9 +237,11 @@ footer {
 .habilidades {
   display: flex;
   flex-direction: column; }
+  .habilidades h1 {
+    margin-bottom: 30px; }
   .habilidades div {
-    padding: 2px;
-    margin: 10px;
+    padding: 5px;
+    margin: 20px 25px 20px 25px;
     text-align: center;
     background-color: #B3B3B3;
     border-radius: 5px;
