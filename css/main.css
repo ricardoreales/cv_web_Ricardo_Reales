@@ -92,9 +92,8 @@ nav {
     bottom: 0px;
     left: 0px;
     opacity: 1;
-    background-image: url("../imagenes/background_b-04.svg");
-    z-index: -2;
-    background-position: 0px 180px; }
+    background-image: url("../imagenes/background_geometric_triangular-01.svg");
+    z-index: -2; }
 
 .nav__menu {
   background: dimgray; }
@@ -106,11 +105,14 @@ nav {
   z-index: 2; }
 
 .background__p {
-  background: #9bd300; }
+  background: black; }
 
 footer {
   background: #9bd300;
-  height: 100px; }
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px; }
 
 .intro {
   display: flex;
@@ -515,7 +517,7 @@ footer {
 
 .section_animacion {
   background: gray;
-  background: linear-gradient(119deg, gray 0%, rgba(113, 113, 113, 0.700718) 23%, #414141 48%, rgba(0, 0, 0, 0.924807) 74%);
+  background: linear-gradient(119deg, rgba(128, 128, 128, 0.8) 0%, rgba(113, 113, 113, 0.8) 23%, rgba(65, 65, 65, 0.8) 48%, rgba(0, 0, 0, 0.8) 74%);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite; }
 

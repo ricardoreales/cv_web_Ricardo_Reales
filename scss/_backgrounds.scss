@@ -16,9 +16,9 @@ background: linear-gradient(0deg, rgba(190,190,190,0.8) 0%, rgba(0,0,0,0.9) 100%
     bottom: 0px;
     left: 0px;
     opacity: 1;
-    background-image: url("../imagenes/background_b-04.svg");
+    background-image: url("../imagenes/background_geometric_triangular-01.svg");
     z-index: -2;
-    background-position: 0px 180px;
+    
   }
 }
 
@@ -36,5 +36,5 @@ background: linear-gradient(0deg, rgba(190,190,190,0.8) 0%, rgba(0,0,0,0.9) 100%
 }
 
 .background__p{
-  background:$color-turqueza ;
+  background:$color-black ;
 }
