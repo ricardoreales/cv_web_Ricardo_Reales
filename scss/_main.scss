@@ -3,48 +3,77 @@
   flex-direction: column;
   align-items: center;
 
-  h1 {
-    text-transform: uppercase;
-    font-weight: bold;
+  .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+
+    .h1_title {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    hr {
+      border: 1px solid $color-white;
+      height: 0;
+      width: 310px;
+    }
+
+    .h2_title {
+      text-transform: uppercase;
+      font-size: 28px;
+      font-weight: lighter;
+    }
   }
 
-  hr {
-    border: 1px solid $color-white;
-    height: 0;
-    width: 300px;
-  }
+  .container__nube {
+    display: flex;
+    width: 100%;
+    position: relative;
 
-  h2 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
+    .text_nubes {
+      font-weight: bold;
+      font-family: "Fuzzy Bubbles";
+      color: $color-white;
+      font-size: 20px;
+      z-index: 1;
+      width: 160px;
+      height: auto;
+      position: absolute;
+      text-align: center;
+      left: 30px;
+      top: 140px;
+    }
 
-  p {
-    margin-top: 20px;
-    padding: 40px;
-    text-align: justify;
+    .nube {
+      width: 220px;
+      height: auto;
+      position: absolute;
+      left: 10px;
+      top: 120px;
+      transform: scaleX(-1);
+      opacity: 0.5;
+    }
+
+    .avatar {
+      width: 100%;
+    }
   }
 }
 
-.color_end{
+#p_intro {
+  padding: 40px;
+  text-align: justify;
+  border: 1px solid red;
+}
+
+.color_end {
   color: $color-turqueza;
-}
-
-.funy1 {
-  @extend .funy;
-  > img {
-    @extend .avatar;
-  }
-  > small {
-    @extend .text;
-    left: 230px;
-    bottom: 180px;
-  }
-  > div {
-    @extend .nube;
-    left: 180px;
-    bottom: 150px;
-  }
 }
 
 .funy2 {
@@ -114,4 +143,3 @@
     bottom: 110px;
   }
 }
-

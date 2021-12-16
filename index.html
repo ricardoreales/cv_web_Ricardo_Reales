@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="background__section">
+    <div class="background__intro">
       <header>
         <nav>
           <div id="toggle"></div>
@@ -42,42 +42,44 @@
         </nav>
       </header>
 
-      <section class="intro" id="inicio">
-        <h1 class="h1_title">Ricardo Reales</h1>
+      <div class="intro">
+        <div class="name">
+          <h1 class="h1_title">Ricardo Reales</h1>
 
-        <hr />
+          <hr />
 
-        <h2 class="h2_title color_end">
-          front - <span class="color_end">end</span>
-        </h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
-          obcaecati enim quis error eius totam provident labore quibusdam? Nulla
-          inventore sequi distinctio, soluta quis harum quam quod sunt iste
-          laudantium Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Nesciunt facere iste repudiandae ullam excepturi consectetur quam?
-          Tempore, placeat. Doloribus corrupti libero atque at laboriosam, ad
-          laudantium iusto eaque quasi dicta!.
-        </p>
-      </section>
+          <h2 class="h2_title color_end">
+            front - <span class="color_end">end</span>
+          </h2>
+        </div>
 
-      <section>
-        <div class="funy1">
-          <img src="./imagenes/cara1.png" alt="cara_inicio" />
-          <small class="font_nubes animate__animated animate__rubberBand">
+        <div class="container__nube">
+          <small class="text_nubes">
             hoy vas a conocer a alguien
-
             <span>GENIAL!!!</span>
           </small>
-          <div>
-            <img
-              class="animate__animated animate__rubberBand"
-              src="./imagenes/nube-02.svg"
-              alt="nube_de_pensamiento"
-            />
-          </div>
+
+          <img
+            class="nube"
+            src="./imagenes/nube-02.svg"
+            alt="nube_de_pensamiento"
+          />
+
+          <img class="avatar" src=".//imagenes/avtar_intro.png" alt="" />
         </div>
-      </section>
+      </div>
+    </div>
+
+    <div class="background__p" id="inicio">
+      <p id="p_intro">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
+        obcaecati enim quis error eius totam provident labore quibusdam? Nulla
+        inventore sequi distinctio, soluta quis harum quam quod sunt iste
+        laudantium Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Nesciunt facere iste repudiandae ullam excepturi consectetur quam?
+        Tempore, placeat. Doloribus corrupti libero atque at laboriosam, ad
+        laudantium iusto eaque quasi dicta!.
+      </p>
     </div>
 
     <div class="background__section">
@@ -129,20 +131,18 @@
         </div>
       </section>
 
-      <div>
-        <div class="funy2">
-          <img src="./imagenes/cara2.png" alt="cara_inicio" />
-          <small class="font_nubes">
-            vamos a ver que es lo que sabe este genio!
-          </small>
-          <div>
-            <img src="./imagenes/nube-02.svg" alt="nube_de_pensamiento" />
-          </div>
+      <div class="funy2">
+        <img src="./imagenes/cara2.png" alt="cara_inicio" />
+        <small class="font_nubes">
+          vamos a ver que es lo que sabe este genio!
+        </small>
+        <div>
+          <img src="./imagenes/nube-02.svg" alt="nube_de_pensamiento" />
         </div>
       </div>
     </div>
 
-    <div class="background__section">
+    <div>
       <section id="habilidades" class="habilidades">
         <h1 class="background__h1 h1_categorias">habilidades</h1>
         <div>
@@ -187,8 +187,8 @@
       </div>
     </div>
 
-    <div class="background__section">
-      <section id="experiencia" class="experiencia" >
+    <div>
+      <section id="experiencia" class="experiencia">
         <h1 class="background__h1 h1_categorias">experiencia</h1>
         <div class="wrapper">
           <div class="center-line"></div>
@@ -265,7 +265,7 @@
       </div>
     </div>
 
-    <div class="background__section">
+    <div>
       <section id="portafolio" class="portafolio">
         <h1 class="background__h1 h1_categorias">portafolio</h1>
         <div class="proyectos">

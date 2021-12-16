@@ -1,7 +1,10 @@
-html {
+.background__section {
   width: 100%;
   min-height: 100vh;
   background-repeat: no-repeat;
+  background: rgb(190,190,190);
+background: linear-gradient(0deg, rgba(190,190,190,0.8) 0%, rgba(0,0,0,0.9) 100%);
+  
 
   &::before {
     content: "";
@@ -13,37 +16,19 @@ html {
     bottom: 0px;
     left: 0px;
     opacity: 1;
-    background-image: url("../imagenes/background_b-02.svg");
+    background-image: url("../imagenes/background_b-04.svg");
     z-index: -2;
-    
+    background-position: 0px 180px;
   }
 }
 
-.background__section {
-  width: 100%;
-    background-repeat: no-repeat;
+.background__intro {
+  width: 100%;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../imagenes/back_black2.jpg");
 
-  &::before {
-    content: "";
-    
-    background-repeat: no-repeat;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.5;
-    background: rgb(190, 190, 190);
-    z-index: -2;
-    background: linear-gradient(0deg, rgb(97, 97, 97) 0%, rgb(0, 0, 0) 100%);
-  }
 }
-
-// .background__section {
-//   position: relative;
-//   height: 100%;
-//   width: 100%;
-// }
 
 .nav__menu {
   background: $color-grisOscuro;
@@ -54,4 +39,8 @@ html {
   box-shadow: inset 0 5px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   width: 100%;
   z-index: 2;
+}
+
+.background__p{
+  background:$color-turqueza ;
 }
