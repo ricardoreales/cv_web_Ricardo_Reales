@@ -112,9 +112,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    left: 50px;
-    top: 80px; }
+    position: absolute; }
     .intro .name .h1_title {
       text-transform: uppercase;
       font-weight: bold;
@@ -132,7 +130,7 @@ nav {
     display: flex;
     width: 100%;
     position: relative;
-    margin-top: 50px; }
+    margin-top: 70px; }
     .intro .container__nube .text_nubes {
       font-weight: bold;
       font-family: "Fuzzy Bubbles";
@@ -486,7 +484,8 @@ nav {
         width: 100vw; }
 
 .section_animacion {
-  background: linear-gradient(-45deg, #adadad, #000000, #424242, #ffffff);
+  background: gray;
+  background: linear-gradient(119deg, gray 0%, rgba(113, 113, 113, 0.700718) 23%, #414141 48%, rgba(0, 0, 0, 0.924807) 74%);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite; }
 

@@ -1,5 +1,6 @@
 .section_animacion {
-	background: linear-gradient(-45deg, #adadad, #000000, #424242, #ffffff);
+	background: rgb(128,128,128);
+background: linear-gradient(119deg, rgba(128,128,128,1) 0%, rgba(113,113,113,0.700717787114846) 23%, rgba(65,65,65,1) 48%, rgba(0,0,0,0.9248074229691877) 74%);
 	background-size: 400% 400%;
 	
 	        animation: gradient 8s ease infinite;
