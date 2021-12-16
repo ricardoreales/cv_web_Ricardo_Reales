@@ -112,7 +112,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute; }
+    position: absolute;
+    margin-top: 20px; }
     .intro .name .h1_title {
       text-transform: uppercase;
       font-weight: bold;
@@ -130,7 +131,7 @@ nav {
     display: flex;
     width: 100%;
     position: relative;
-    margin-top: 70px; }
+    margin-top: 80px; }
     .intro .container__nube .text_nubes {
       font-weight: bold;
       font-family: "Fuzzy Bubbles";
