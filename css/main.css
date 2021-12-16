@@ -18,21 +18,6 @@ html {
   font-family: 'Varela','Arial Narrow Bold', sans-serif;
   color: white; }
 
-.font_nubes {
-  font-weight: bold;
-  font-family: 'Fuzzy Bubbles';
-  color: white;
-  font-size: 18px; }
-
-.h1_title {
-  text-transform: uppercase;
-  font-size: 30px;
-  text-align: center; }
-
-.h2_title {
-  text-transform: uppercase;
-  font-size: 30px; }
-
 .h1_categorias {
   text-transform: uppercase;
   font-size: 20px;
@@ -107,12 +92,6 @@ nav {
     z-index: -2;
     background-position: 0px 180px; }
 
-.background__intro {
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../imagenes/back_black2.jpg"); }
-
 .nav__menu {
   background: dimgray; }
 
@@ -134,7 +113,7 @@ nav {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 30px;
+    left: 50px;
     top: 80px; }
     .intro .name .h1_title {
       text-transform: uppercase;
@@ -144,7 +123,7 @@ nav {
     .intro .name hr {
       border: 1px solid white;
       height: 0;
-      width: 310px; }
+      width: 280px; }
     .intro .name .h2_title {
       text-transform: uppercase;
       font-size: 28px;
@@ -152,7 +131,8 @@ nav {
   .intro .container__nube {
     display: flex;
     width: 100%;
-    position: relative; }
+    position: relative;
+    margin-top: 30px; }
     .intro .container__nube .text_nubes {
       font-weight: bold;
       font-family: "Fuzzy Bubbles";
@@ -505,6 +485,19 @@ nav {
       justify-content: center; }
       .portafolio .proyectos .img_portafolio img {
         width: 100vw; }
+
+.section_animacion {
+  background: linear-gradient(-45deg, #313131, #000000, #424242, #050505);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite; }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 @media (max-width: 790px) {
   .wrapper .center-line {
