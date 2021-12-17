@@ -26,44 +26,42 @@
 //   }
 // }
 
-
 //efecto line up
-
 
 .background__animation {
   margin: 0;
   height: 100%;
   font-weight: 100;
-  background: radial-gradient(#00a5c2, #000000);
- 
+  background: radial-gradient(#5e5d5d, #1f1f1f);
 }
 
 .light {
   position: absolute;
-  width: 0px;
-  height: 300px;
+  width: 5px;
+  height: 5px;
   opacity: 0.7;
   background-color: rgb(255, 255, 255);
   box-shadow: #e9f1f1 0px 0px 20px 2px;
-  top: 80vh;
+  top: 100vh;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin: auto;
+  border-radius: 50%;
 }
 
-.x1{
+.x1 {
   -webkit-animation: floatUp 4s infinite linear;
   -moz-animation: floatUp 4s infinite linear;
   -o-animation: floatUp 4s infinite linear;
   animation: floatUp 4s infinite linear;
-   -webkit-transform: scale(1.0);
-   -moz-transform: scale(1.0);
-   -o-transform: scale(1.0);
-  transform: scale(1.0);
-  }
-  
-  .x2{
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.x2 {
   -webkit-animation: floatUp 7s infinite linear;
   -moz-animation: floatUp 7s infinite linear;
   -o-animation: floatUp 7s infinite linear;
@@ -73,9 +71,9 @@
   -o-transform: scale(0.6);
   transform: scale(0.6);
   left: 15%;
-  }
-  
-  .x3{
+}
+
+.x3 {
   -webkit-animation: floatUp 2.5s infinite linear;
   -moz-animation: floatUp 2.5s infinite linear;
   -o-animation: floatUp 2.5s infinite linear;
@@ -85,9 +83,9 @@
   -o-transform: scale(0.5);
   transform: scale(0.5);
   left: -15%;
-  }
-  
-  .x4{
+}
+
+.x4 {
   -webkit-animation: floatUp 4.5s infinite linear;
   -moz-animation: floatUp 4.5s infinite linear;
   -o-animation: floatUp 4.5s infinite linear;
@@ -97,9 +95,9 @@
   -o-transform: scale(0.2);
   transform: scale(0.2);
   left: -34%;
-  }
-  
-  .x5{
+}
+
+.x5 {
   -webkit-animation: floatUp 8s infinite linear;
   -moz-animation: floatUp 8s infinite linear;
   -o-animation: floatUp 8s infinite linear;
@@ -108,10 +106,10 @@
   -moz-transform: scale(0.3);
   -o-transform: scale(0.3);
   transform: scale(0.3);
-  left: -57%;
-  }
-  
-  .x6{
+  left: -34%;
+}
+
+.x6 {
   -webkit-animation: floatUp 3s infinite linear;
   -moz-animation: floatUp 3s infinite linear;
   -o-animation: floatUp 3s infinite linear;
@@ -121,9 +119,9 @@
   -o-transform: scale(0.8);
   transform: scale(0.8);
   left: -81%;
-  }
-  
-  .x7{
+}
+
+.x7 {
   -webkit-animation: floatUp 5.3s infinite linear;
   -moz-animation: floatUp 5.3s infinite linear;
   -o-animation: floatUp 5.3s infinite linear;
@@ -132,10 +130,10 @@
   -moz-transform: scale(0.2);
   -o-transform: scale(0.2);
   transform: scale(0.2);
-  left: 37%;
-  }
-  
-  .x8{
+  left: -81%;
+}
+
+.x8 {
   -webkit-animation: floatUp 4.7s infinite linear;
   -moz-animation: floatUp 4.7s infinite linear;
   -o-animation: floatUp 4.7s infinite linear;
@@ -145,9 +143,43 @@
   -o-transform: scale(0.7);
   transform: scale(0.7);
   left: 62%;
-  }
-  
-  .x9{
+}
+
+.x9 {
+  -webkit-animation: floatUp 6.1s infinite linear;
+  -moz-animation: floatUp 6.1s infinite linear;
+  -o-animation: floatUp 6.1s infinite linear;
+  animation: floatUp 6.1s infinite linear;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  left: -62%;
+}
+
+.x10 {
+  -webkit-animation: floatUp 9.1s infinite linear;
+  -moz-animation: floatUp 9.1s infinite linear;
+  -o-animation: floatUp 9.1s infinite linear;
+  animation: floatUp 9.1s infinite linear;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  left: 85%;
+}
+.x11 {
+  -webkit-animation: floatUp 2.1s infinite linear;
+  -moz-animation: floatUp 2.1s infinite linear;
+  -o-animation: floatUp 2.1s infinite linear;
+  animation: floatUp 2.1s infinite linear;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  left: -35%;
+}
+.x12 {
   -webkit-animation: floatUp 4.1s infinite linear;
   -moz-animation: floatUp 4.1s infinite linear;
   -o-animation: floatUp 4.1s infinite linear;
@@ -156,9 +188,19 @@
   -moz-transform: scale(0.9);
   -o-transform: scale(0.9);
   transform: scale(0.9);
-  left: 85%;
-  }
-
+  left: 73%;
+}
+.x13 {
+  -webkit-animation: floatUp 4.1s infinite linear;
+  -moz-animation: floatUp 4.1s infinite linear;
+  -o-animation: floatUp 4.1s infinite linear;
+  animation: floatUp 4.1s infinite linear;
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
+  left: -73%;
+}
 @keyframes floatUp {
   0% {
     top: 100vh;
