@@ -110,7 +110,7 @@ nav {
   background: #0084a5; }
 
 .background__division {
-  height: 30px;
+  height: 40px;
   background: #96cf11; }
 
 footer {
@@ -415,14 +415,14 @@ footer {
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
-  z-index: 3; }
+  z-index: 2; }
   .wrapper .center-line {
     position: absolute;
     height: 100%;
     width: 4px;
     background: white;
     left: 50%;
-    top: 20px;
+    top: 50px;
     transform: translateX(-50%); }
   .wrapper .row {
     display: flex; }
