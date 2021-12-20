@@ -26,7 +26,8 @@ html {
 
 .font_nubes {
   font-family: 'Fuzzy Bubbles';
-  font-size: 20px; }
+  font-size: 20px;
+  color: white; }
 
 /*--BRRA DE NAVEGAION--*/
 nav {
@@ -167,13 +168,13 @@ footer {
       position: absolute;
       text-align: center;
       left: 30px;
-      top: 155px; }
+      top: 140px; }
     .intro .container__nube .nube, .intro .container__nube .funy2 > div, .intro .container__nube .funy3 > div, .intro .container__nube .funy4 > div, .intro .container__nube .funy5 > div {
       width: 220px;
       height: auto;
       position: absolute;
       left: 10px;
-      top: 120px;
+      top: 110px;
       transform: scaleX(-1); }
     .intro .container__nube .avatar, .intro .container__nube .funy2 > img, .intro .container__nube .funy3 > img, .intro .container__nube .funy4 > img, .intro .container__nube .funy5 > img {
       width: 100%; }
@@ -254,11 +255,87 @@ footer {
     margin-bottom: 30px; }
   .habilidades div {
     padding: 5px;
-    margin: 20px 25px 20px 25px;
+    margin: 10px 25px 40px 25px;
     text-align: center;
     background-color: #B3B3B3;
     border-radius: 5px;
     border: 2px solid white; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 5px; }
+  .container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid white;
+    background-color: #B3B3B3; }
+
+.porcent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #4e4e4e;
+  z-index: 1000; }
+  .porcent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; }
+    .porcent .number h2 {
+      font-weight: 700;
+      font-size: 40px; }
+      .porcent .number h2 span {
+        color: white; }
+
+.text_circulo {
+  position: relative;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(-85deg) !important; }
+  svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #B3B3B3;
+    stroke-width: 10;
+    stroke-linecap: round !important;
+    transform: translate(5px, 5px); }
+
+/*Claculo para simular el porcent*/
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440; }
+
+.card:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 100) / 100);
+  stroke: #96cf11; }
+
+.card:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 60) / 100);
+  stroke: #96cf11; }
 
 #toggle {
   position: fixed;
@@ -407,7 +484,8 @@ footer {
     width: 120px;
     height: auto;
     position: absolute;
-    text-align: center; }
+    text-align: center;
+    color: white; }
   .funy .nube, .funy2 .nube, .funy3 .nube, .funy4 .nube, .funy5 .nube, .funy .funy2 > div, .funy2 > div, .funy3 .funy2 > div, .funy4 .funy2 > div, .funy5 .funy2 > div, .funy .funy3 > div, .funy2 .funy3 > div, .funy3 > div, .funy4 .funy3 > div, .funy5 .funy3 > div, .funy .funy4 > div, .funy2 .funy4 > div, .funy3 .funy4 > div, .funy4 > div, .funy5 .funy4 > div, .funy .funy5 > div, .funy2 .funy5 > div, .funy3 .funy5 > div, .funy4 .funy5 > div, .funy5 > div {
     width: 200px;
     height: auto;
@@ -481,11 +559,14 @@ footer {
 
 .row section .details {
   display: flex;
-  align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-content: flex-start; }
   .row section .details .title {
-    font-size: 22px;
-    font-weight: 600; }
+    font-size: 20px;
+    font-weight: 600;
+    width: 170px; }
+  .row section .details span {
+    font-size: 16px; }
 
 .row section p {
   margin: 10px 0 17px 0; }

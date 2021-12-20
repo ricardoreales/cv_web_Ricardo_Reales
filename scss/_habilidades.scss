@@ -1,24 +1,120 @@
-.habilidades{
+.habilidades {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  div {
+    padding: 5px;
+    margin: 10px 25px 40px 25px;
+    text-align: center;
+    background-color: $color-gris2;
+    border-radius: 5px;
+    border: 2px solid $color-white;
+  }
+}
+
+// .porcentaje {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   min-height: 98vh;
+
+// }
+.container {
+  // position: relative;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+
+  border-radius: 5px;
+  .card {
+    position: relative;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px ;
+    padding: 50px;
+    border: 2px solid $color-white;
+    background-color: $color-gris2;
+  }
+}
+.porcent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  // box-shadow: inset 0 0 50px rgb(141, 12, 12);
+  background: rgb(78, 78, 78);
+  z-index: 1000;
 
-    h1{
-        margin-bottom: 30px;
+  .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    h2 {
+      font-weight: 700;
+      font-size: 40px;
+
+      span {
+        color: $color-white;
+      }
     }
-    
-    
-   
-    div{
-        
-        padding: 5px;
-        margin: 20px 25px 20px 25px;
-        
-        text-align: center;
-        background-color:$color-gris2 ;
-        border-radius: 5px;
-        border:2px solid $color-white;
-       
-    }
+  }
+}
 
+.text_circulo {
+  position: relative;
 
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(-85deg) !important;
+
+  circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: $color-gris2;
+    stroke-width: 10;
+    stroke-linecap: round !important;
+    transform: translate(5px, 5px);
+  }
+}
+
+/*Claculo para simular el porcent*/
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.card:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 100) / 100);
+  stroke: $color-secundario;
+}
+.card:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 60) / 100);
+  stroke: $color-secundario;
 }
