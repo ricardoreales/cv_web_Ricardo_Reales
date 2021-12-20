@@ -70,7 +70,7 @@ nav {
       text-transform: uppercase;
       font-weight: 600; }
       nav .nav__menu a.active {
-        color: #547702;
+        color: #009da8;
         transition: 0.5s; }
       nav .nav__menu a:hover {
         color: #96cf11;
@@ -101,7 +101,7 @@ html::before {
   background: dimgray; }
 
 .background__h1 {
-  background-color: #547702;
+  background-color: #009da8;
   box-shadow: inset 0 5px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   width: 100%;
   z-index: 2; }
@@ -302,7 +302,7 @@ footer {
   left: -300px;
   width: 300px;
   height: 100vh;
-  background: #547702;
+  background: #009da8;
   transition: 0.5s;
   z-index: 3; }
   #sidebar ul {
@@ -373,7 +373,7 @@ footer {
   left: -300px;
   width: 300px;
   height: 100vh;
-  background: #547702;
+  background: #009da8;
   transition: 0.5s;
   z-index: 3; }
   #sidebar ul {
