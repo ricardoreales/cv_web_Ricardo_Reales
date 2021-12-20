@@ -86,7 +86,7 @@ html::before {
   bottom: 0px;
   left: 0px;
   opacity: 1;
-  background-image: url("../imagenes/background_geometric_triangular-01.svg");
+  background-image: url("../imagenes/background_html_geometric.webp");
   z-index: -2;
   width: 100%; }
 
