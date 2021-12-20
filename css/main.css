@@ -109,6 +109,10 @@ nav {
 .background__p {
   background: #0084a5; }
 
+.background__division {
+  height: 30px;
+  background: #96cf11; }
+
 footer {
   background: #96cf11;
   height: 60px;
