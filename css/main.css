@@ -78,15 +78,14 @@ nav {
 
 html::before {
   content: "";
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
   position: fixed;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
   opacity: 1;
-  background-image: url("../imagenes/background_html_geometric.webp");
+  background-image: url("../imagenes/background_html_geometric-cuadrado-02.svg");
   z-index: -2;
   width: 100%; }
 

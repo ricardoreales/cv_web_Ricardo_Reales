@@ -1,44 +1,32 @@
-
-
-
-
 html {
- 
+  &::before {
+    content: "";
+    background-size: contain;
 
-&::before {
-  content: "";
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  background-image: url("../imagenes/background_html_geometric.webp");
-  z-index: -2;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+    background-image: url("../imagenes/background_html_geometric-cuadrado-02.svg");
+    z-index: -2;
+    width: 100%;
+  }
+}
+
+.background__section {
+  position: relative;
+  height: auto;
   width: 100%;
-
+  background-repeat: no-repeat;
+  background: rgb(190, 190, 190);
+  background: linear-gradient(
+    0deg,
+    rgba(190, 190, 190, 0.7) 0%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
 }
-}
-
-
-.background__section{ 
-position: relative;
-height: auto;
- width: 100%;
- background-repeat: no-repeat;
- background: rgb(190, 190, 190);
- background: linear-gradient(
-   0deg,
-   rgba(190, 190, 190, 0.7) 0%,
-   rgba(0, 0, 0, 0.7) 100%
- );
-}
-
-
-
-
 
 .nav__menu {
   background: $color-grisOscuro;
@@ -53,11 +41,9 @@ height: auto;
 
 .background__p {
   background: $color-primario;
-  
-  
 }
-.background__division{
+.background__division {
   height: 60px;
 
-  background:$color-secundario;
+  background: $color-secundario;
 }
