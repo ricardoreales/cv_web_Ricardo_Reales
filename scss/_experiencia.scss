@@ -1,9 +1,7 @@
-
 .experiencia {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .wrapper {
@@ -12,7 +10,7 @@
   padding: 0 20px;
   position: relative;
   z-index: 2;
- 
+
   .center-line {
     position: absolute;
     height: 100%;
@@ -21,19 +19,18 @@
     left: 50%;
     top: 50px;
     transform: translateX(-50%);
-   
   }
   .row {
     display: flex;
-   
+
     section {
       background: $color-gris2;
       border-radius: 5px;
       width: calc(50% - 40px);
       padding: 20px;
       position: relative;
-      border:2px solid $color-white;
-      
+      border: 2px solid $color-white;
+
       &:before {
         position: absolute;
         content: "";
@@ -85,49 +82,27 @@
       text-align: center;
       line-height: 40px;
       border-radius: 50%;
-      box-shadow: 0 0 0 4px $color-white,  inset 0 5px 0 rgba(0,0,0,0.08), 0 5px 0 4px rgba(0,0,0,0.05);
-     
+      box-shadow: 0 0 0 4px $color-white, inset 0 5px 0 rgba(0, 0, 0, 0.08),
+        0 5px 0 4px rgba(0, 0, 0, 0.05);
     }
     .details {
       display: flex;
       justify-content: space-between;
       align-content: flex-start;
-      
-      
+
       .title {
         font-size: 20px;
         font-weight: 600;
         width: 170px;
       }
-      span{
+      span {
         font-size: 16px;
-     
-
-
       }
-
-
-
-
     }
-
-
-
-
 
     p {
       margin: 10px 0 17px 0;
+      text-align: justify;
     }
-
-
-    
   }
-
-  
 }
-
-
-
-
-
-

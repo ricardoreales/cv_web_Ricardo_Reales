@@ -9,8 +9,6 @@
     align-items: center;
     position: absolute;
     margin-top: 20px;
-    
-   
 
     .h1_title {
       text-transform: uppercase;
@@ -50,7 +48,30 @@
       text-align: center;
       left: 30px;
       top: 140px;
+      #span_genial {
+        font-size: 25px;
+      }
     }
+
+    // .text_nubes_2 {
+    //   display: flex;
+    //   flex-direction: column;
+    //   font-weight: bold;
+    //   font-family: "Fuzzy Bubbles";
+    //   color: $color-white;
+    //   font-size: 20px;
+    //   z-index: 1;
+    //   width: 160px;
+    //   height: auto;
+    //   position: absolute;
+    //   text-align: center;
+    //   align-items: center;
+    //   left: 10px;
+    //   top:370px;
+    //   img{
+    //     width: 80px;
+    //   }
+    // }
 
     .nube {
       width: 220px;
@@ -59,8 +80,19 @@
       left: 10px;
       top: 110px;
       transform: scaleX(-1);
-      
     }
+
+    // .nube_2 {
+    //   width: 150px;
+    //   height: auto;
+    //   position: absolute;
+    //   transform: scaleX(-1);
+    //   transform: rotate(180deg);
+    //   left: 15px;
+    //   top: 350px;
+
+    //   border: 1px solid red;
+    // }
 
     .avatar {
       width: 100%;
@@ -68,11 +100,25 @@
   }
 }
 
-#p_intro {
-  padding: 40px;
-  text-align: justify;
- 
-  
+.text__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #h1__intro {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #h2__intro {
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+  }
+
+  .p__intro {
+    margin: 0px 30px 20px 30px;
+    text-align: justify;
+  }
 }
 
 .color_end {
@@ -97,6 +143,7 @@
 }
 
 .funy3 {
+  margin-top: 120px;
   @extend .funy;
   > img {
     @extend .avatar;
@@ -104,7 +151,7 @@
   > small {
     @extend .text;
     left: 230px;
-    bottom: 185px;
+    bottom: 200px;
   }
   > div {
     @extend .nube;
@@ -114,18 +161,19 @@
 }
 
 .funy4 {
+  margin-top: 50px;
   @extend .funy;
   > img {
     @extend .avatar;
   }
   > small {
     @extend .text;
-    left: 215px;
+    left: 240px;
     bottom: 210px;
   }
   > div {
     @extend .nube;
-    left: 170px;
+    left: 190px;
     bottom: 180px;
   }
 }
@@ -147,7 +195,37 @@
   }
 }
 
+.funy6 {
+  @extend .funy;
+  > img {
+    @extend .avatar;
+  }
+  > small {
+    @extend .text;
+    left: 220px;
+    bottom: 140px;
+  }
+  > div {
+    @extend .nube;
+    left: 170px;
+    bottom: 110px;
+  }
+}
 
-
-
-
+.funy7 {
+  margin-top: 90px;
+  @extend .funy;
+  > img {
+    @extend .avatar;
+  }
+  > small {
+    @extend .text;
+    left: 220px;
+    bottom: 160px;
+  }
+  > div {
+    @extend .nube;
+    left: 170px;
+    bottom: 110px;
+  }
+}
