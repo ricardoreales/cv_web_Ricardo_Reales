@@ -186,10 +186,11 @@ footer {
   flex-direction: column;
   align-items: center; }
   .text__intro #h1__intro {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     text-align: center; }
-  .text__intro #h2__intro {
-    margin: 10px 0px 20px 0px;
+  .text__intro .h2__intro {
+    margin: 20px 0px 20px 0px;
     text-align: center; }
   .text__intro .p__intro {
     margin: 0px 30px 20px 30px;
