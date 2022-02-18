@@ -133,13 +133,14 @@
   }
   > small {
     @extend .text;
-    left: 205px;
-    bottom: 190px;
+    left:210px;
+    bottom: 355px;
   }
   > div {
     @extend .nube;
     left: 160px;
-    bottom: 160px;
+    bottom: 320px;
+    
   }
 }
 
@@ -169,12 +170,12 @@
   }
   > small {
     @extend .text;
-    left: 240px;
+    left: 200px;
     bottom: 210px;
   }
   > div {
     @extend .nube;
-    left: 190px;
+    left: 160px;
     bottom: 180px;
   }
 }
@@ -187,12 +188,12 @@
   > small {
     @extend .text;
     left: 220px;
-    bottom: 140px;
+    bottom: 395px;
   }
   > div {
     @extend .nube;
     left: 170px;
-    bottom: 110px;
+    bottom: 360px;
   }
 }
 
@@ -204,12 +205,12 @@
   > small {
     @extend .text;
     left: 220px;
-    bottom: 140px;
+    bottom: 415px;
   }
   > div {
     @extend .nube;
     left: 170px;
-    bottom: 110px;
+    bottom: 380px;
   }
 }
 
